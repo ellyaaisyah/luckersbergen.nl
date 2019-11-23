@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
+import "../styles/styles.scss";
 
 export default ({ children, title = "Luc Kersbergen" }) => (
   <div>
