@@ -24,23 +24,30 @@ export default ({ children, title = "Luc Kersbergen" }) => (
     <header>
       <nav>
         <div className="container d-flex align-items-center justify-content-between pt-3 pb-3">
-          <div className="brand d-flex align-items-center">
-            <img src="/brand.png" alt="brand" width="40" />
-            <h3 className="m-0 ml-3">
-              <Link href="/">
-                <a>LUC</a>
-              </Link>
-            </h3>
+          <div className="brand">
+            <Link href="/">
+              <a className="d-flex align-items-center">
+                <img src="/brand.png" alt="brand" width="40" />
+                <h3 className="m-0 ml-3 font-weight-bold d-none d-md-block">
+                  LUC
+                </h3>
+              </a>
+            </Link>
           </div>
 
           <div className="links text-uppercase">
             <Link href="/">
-              <a>Projects</a>
+              <a className="d-block d-md-inline">Projects</a>
             </Link>
             <Link href="/about-me">
-              <a className="px-4">About Me</a>
+              <a className="d-block d-md-inline px-md-4">About Me</a>
             </Link>
-            <a href="mailto:luckersbergen@gmail.com">Contact</a>
+            <a
+              href="mailto:luckersbergen@gmail.com"
+              className="d-block d-md-inline"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </nav>
@@ -50,14 +57,21 @@ export default ({ children, title = "Luc Kersbergen" }) => (
 
     <footer>
       <div className="container d-flex align-items-center justify-content-between pt-5 pb-5">
-        <div className="links text-uppercase font-weight-normal">
+        <div className="links text-uppercase">
           <Link href="/">
-            <a>Projects</a>
+            <a className="d-block d-md-inline font-weight-normal">Projects</a>
           </Link>
           <Link href="/about-me">
-            <a className="px-4">About Me</a>
+            <a className="d-block d-md-inline px-md-4 font-weight-normal">
+              About Me
+            </a>
           </Link>
-          <a href="mailto:luckersbergen@gmail.com">Contact</a>
+          <a
+            href="mailto:luckersbergen@gmail.com"
+            className="d-block d-md-inline font-weight-normal"
+          >
+            Contact
+          </a>
         </div>
 
         <div className="social">
