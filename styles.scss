@@ -1,0 +1,24 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  min-height: 80px;
+
+  a {
+    color: #fff;
+  }
+}
+
+a {
+  color: #ff8970;
+  font-weight: 700;
+}
+
+.bg-light-grey {
+  background: #f2f2f2;
+}
+
+@import "./projects.scss";
