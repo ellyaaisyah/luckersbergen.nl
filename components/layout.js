@@ -27,17 +27,17 @@ export default ({ children, title = "Luc Kersbergen" }) => (
           <div className="brand d-flex align-items-center">
             <img src="/brand.png" alt="brand" width="40" />
             <h3 className="m-0 ml-3">
-              <Link href="/" as={process.env.BACKEND_URL + "/"}>
+              <Link href="/">
                 <a>LUC</a>
               </Link>
             </h3>
           </div>
 
           <div className="links text-uppercase">
-            <Link href="/" as={process.env.BACKEND_URL + "/"}>
+            <Link href="/">
               <a>Projects</a>
             </Link>
-            <Link href="/about-me" as={process.env.BACKEND_URL + "/about-me"}>
+            <Link href="/about-me">
               <a className="px-4">About Me</a>
             </Link>
             <a href="mailto:luckersbergen@gmail.com">Contact</a>
@@ -51,10 +51,10 @@ export default ({ children, title = "Luc Kersbergen" }) => (
     <footer>
       <div className="container d-flex align-items-center justify-content-between pt-5 pb-5">
         <div className="links text-uppercase font-weight-normal">
-          <Link href="/" as={process.env.BACKEND_URL + "/"}>
+          <Link href="/">
             <a>Projects</a>
           </Link>
-          <Link href="/about-me" as={process.env.BACKEND_URL + "/about-me"}>
+          <Link href="/about-me">
             <a className="px-4">About Me</a>
           </Link>
           <a href="mailto:luckersbergen@gmail.com">Contact</a>
