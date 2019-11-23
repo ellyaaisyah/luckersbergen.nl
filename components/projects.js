@@ -6,7 +6,9 @@ export default class Projects extends Component {
     return (
       <div className="container">
         <div className="text-center pt-5 pb-5">
-          <h2 className="text-uppercase mb-5">Projects I Worked On</h2>
+          <h2 className="text-uppercase mb-5 font-weight-bold">
+            Projects I Worked On
+          </h2>
 
           <div className="row">
             <div className="col-12 col-md-6 mb-4">

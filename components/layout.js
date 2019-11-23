@@ -47,13 +47,13 @@ export default ({ children, title = "Luc Kersbergen" }) => (
     {children}
 
     <footer>
-      <div className="container d-flex align-items-center">
-        <div className="links">
+      <div className="container d-flex align-items-center justify-content-between pt-5 pb-5">
+        <div className="links text-uppercase font-weight-normal">
           <Link href="/">
             <a>Projects</a>
           </Link>
           <Link href="/about-me">
-            <a>About Me</a>
+            <a className="px-4">About Me</a>
           </Link>
           <Link href="/contact">
             <a>Contact</a>
@@ -61,7 +61,9 @@ export default ({ children, title = "Luc Kersbergen" }) => (
         </div>
 
         <div className="social">
-          <img src="/footer-linkedin.png" />
+          <a href="#">
+            <img src="/footer-linkedin.png" width="30" />
+          </a>
         </div>
       </div>
     </footer>

@@ -9,7 +9,7 @@ const Home = () => (
         <div className="row pt-5 pb-5 d-flex align-items-center">
           <div className="col-12 col-md-6">
             <p className="text-uppercase">Hi there, I'm Luc Kersbergen!</p>
-            <h2>UX/UI Designer</h2>
+            <h2 className="font-weight-bold">UX/UI Designer</h2>
             <p>
               UX Design specialist at GameHouse Europe | Previously employed by
               TNT Express, MarConcepts and 3Dimerce | Graduated from
