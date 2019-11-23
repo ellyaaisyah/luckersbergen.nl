@@ -19,7 +19,7 @@ export default class Projects extends Component {
                   alt="Multi app subscription"
                 />
                 <div className="card-body text-left">
-                  <h5 className="card-title">Multi-App Subscription</h5>
+                  <h4 className="card-title">Multi-App Subscription</h4>
                   <p className="card-text">
                     GameHouse has a collection of over 30 games in the app
                     stores. To give players the option to enjoy the entire
@@ -45,7 +45,7 @@ export default class Projects extends Component {
                   alt="Ghos app"
                 />
                 <div className="card-body text-left">
-                  <h5 className="card-title">GHOS App</h5>
+                  <h4 className="card-title">GHOS App</h4>
                   <p className="card-text">
                     My first project for GameHouse was to create an app where
                     all GameHouse games come together. The GHOS (GameHouse
@@ -69,7 +69,7 @@ export default class Projects extends Component {
                   alt="Cross promotion"
                 />
                 <div className="card-body text-left">
-                  <h5 className="card-title">Cross-Promotion</h5>
+                  <h4 className="card-title">Cross-Promotion</h4>
                   <p className="card-text">
                     To inform single game players about our complete catalog of
                     games, we created an in-game cross-promotion system. This
@@ -77,7 +77,7 @@ export default class Projects extends Component {
                     step by step and is still up and running.
                   </p>
                   <div className="text-right">
-                    <Link href="/projects/multi-app-subscription">
+                    <Link href="/projects/cross-promotion">
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>
@@ -93,7 +93,7 @@ export default class Projects extends Component {
                   alt="User testing"
                 />
                 <div className="card-body text-left">
-                  <h5 className="card-title">User Testing</h5>
+                  <h4 className="card-title">User Testing</h4>
                   <p className="card-text">
                     As a UX designer, I believe it is important to talk to your
                     audience. Therefore I’ve been part of GameHouse’s User
@@ -102,7 +102,7 @@ export default class Projects extends Component {
                     inspiration and feedback for my projects.
                   </p>
                   <div className="text-right">
-                    <Link href="/projects/multi-app-subscription">
+                    <Link href="/projects/user-testing">
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>

@@ -26,7 +26,11 @@ export default ({ children, title = "Luc Kersbergen" }) => (
         <div className="container d-flex align-items-center justify-content-between pt-3 pb-3">
           <div className="brand d-flex align-items-center">
             <img src="/brand.png" alt="brand" width="40" />
-            <h3 className="m-0 ml-3">LUC</h3>
+            <h3 className="m-0 ml-3">
+              <Link href="/">
+                <a>LUC</a>
+              </Link>
+            </h3>
           </div>
 
           <div className="links text-uppercase">
@@ -36,9 +40,7 @@ export default ({ children, title = "Luc Kersbergen" }) => (
             <Link href="/about-me">
               <a className="px-4">About Me</a>
             </Link>
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
+            <a href="mailto:luckersbergen@gmail.com">Contact</a>
           </div>
         </div>
       </nav>
@@ -55,9 +57,7 @@ export default ({ children, title = "Luc Kersbergen" }) => (
           <Link href="/about-me">
             <a className="px-4">About Me</a>
           </Link>
-          <Link href="/contact">
-            <a>Contact</a>
-          </Link>
+          <a href="mailto:luckersbergen@gmail.com">Contact</a>
         </div>
 
         <div className="social">
