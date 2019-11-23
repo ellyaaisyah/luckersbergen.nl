@@ -29,13 +29,7 @@ export default class Projects extends Component {
                     app.
                   </p>
                   <div className="text-right">
-                    <Link
-                      href="/projects/multi-app-subscription"
-                      as={
-                        process.env.BACKEND_URL +
-                        "/projects/multi-app-subscription"
-                      }
-                    >
+                    <Link href="/projects/multi-app-subscription">
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>
