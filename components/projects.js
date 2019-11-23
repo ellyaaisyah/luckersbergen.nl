@@ -53,7 +53,7 @@ export default class Projects extends Component {
                     games and to build organic traffic for new games.
                   </p>
                   <div className="text-right">
-                    <Link href="/projects/multi-app-subscription">
+                    <Link href="/projects/ghos-app">
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>

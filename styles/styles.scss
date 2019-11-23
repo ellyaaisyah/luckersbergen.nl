@@ -20,4 +20,8 @@ a {
   background: #f2f2f2;
 }
 
+.container-smaller {
+  max-width: 800px;
+}
+
 @import "./projects.scss";
