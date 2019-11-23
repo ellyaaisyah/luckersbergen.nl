@@ -29,7 +29,13 @@ export default class Projects extends Component {
                     app.
                   </p>
                   <div className="text-right">
-                    <Link href="/projects/multi-app-subscription">
+                    <Link
+                      href="/projects/multi-app-subscription"
+                      as={
+                        process.env.BACKEND_URL +
+                        "/projects/multi-app-subscription"
+                      }
+                    >
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>
@@ -53,7 +59,10 @@ export default class Projects extends Component {
                     games and to build organic traffic for new games.
                   </p>
                   <div className="text-right">
-                    <Link href="/projects/ghos-app">
+                    <Link
+                      href="/projects/ghos-app"
+                      as={process.env.BACKEND_URL + "/projects/ghos-app"}
+                    >
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>
@@ -77,7 +86,10 @@ export default class Projects extends Component {
                     step by step and is still up and running.
                   </p>
                   <div className="text-right">
-                    <Link href="/projects/cross-promotion">
+                    <Link
+                      href="/projects/cross-promotion"
+                      as={process.env.BACKEND_URL + "/projects/cross-promotion"}
+                    >
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>
@@ -102,7 +114,10 @@ export default class Projects extends Component {
                     inspiration and feedback for my projects.
                   </p>
                   <div className="text-right">
-                    <Link href="/projects/user-testing">
+                    <Link
+                      href="/projects/user-testing"
+                      as={process.env.BACKEND_URL + "/projects/user-testing"}
+                    >
                       <a className="text-uppercase">Read More</a>
                     </Link>
                   </div>
