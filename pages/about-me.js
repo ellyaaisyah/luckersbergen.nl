@@ -1,7 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
+import Slider from "react-slick";
 
 const AboutMe = () => {
+  const settings = {
+    dots: true
+  };
+
   return (
     <Layout>
       <div className="bg-light-grey">
@@ -43,56 +48,75 @@ const AboutMe = () => {
         <h2 className="text-uppercase font-weight-bold mb-5 text-center">
           What My Co-Workers Say About Me
         </h2>
-        <div className="row d-flex align-items-center">
-          <div className="col-12 col-md-6">
-            <img src="/aboutme-sliderellya.jpg" className="w-100" alt="Ellya" />
-          </div>
-          <div className="col-12 col-md-6">
-            <p>
-              "Luc is always up to innovation and try to see from all angles to
-              deliver the best result. Luc takes his time to understand the goal
-              of the task brought upon him and weigh multiple options to best
-              suited for the problem."
-            </p>
-            <p>- Ellya Aisyah, Front-End Developer</p>
-          </div>
-        </div>
 
-        <div className="row d-flex align-items-center">
-          <div className="col-12 col-md-6">
-            <img src="/aboutme-slidermark.jpg" className="w-100" alt="Mark" />
+        <Slider {...settings}>
+          <div>
+            <div className="row d-flex align-items-center">
+              <div className="col-12 col-md-6">
+                <img
+                  src="/aboutme-sliderellya.jpg"
+                  className="w-100"
+                  alt="Ellya"
+                />
+              </div>
+              <div className="col-12 col-md-6">
+                <p>
+                  "Luc is always up to innovation and try to see from all angles
+                  to deliver the best result. Luc takes his time to understand
+                  the goal of the task brought upon him and weigh multiple
+                  options to best suited for the problem."
+                </p>
+                <p>- Ellya Aisyah, Front-End Developer</p>
+              </div>
+            </div>
           </div>
-          <div className="col-12 col-md-6">
-            <p>
-              "What stands out to me is Luc his perseverance in the sometimes
-              painful path of getting to a better user experience by embracing
-              yet another failed test and really learn from it. The next day he
-              will surprise you by coming up with a new solution inspired by
-              something he found in some blogpost or customer review."
-            </p>
-            <p>- Mark van Kessel, Product Owner</p>
-          </div>
-        </div>
 
-        <div className="row d-flex align-items-center">
-          <div className="col-12 col-md-6">
-            <img
-              src="/aboutme-slidersharath.jpg"
-              className="w-100"
-              alt="Sharath"
-            />
+          <div>
+            <div className="row d-flex align-items-center">
+              <div className="col-12 col-md-6">
+                <img
+                  src="/aboutme-slidermark.jpg"
+                  className="w-100"
+                  alt="Mark"
+                />
+              </div>
+              <div className="col-12 col-md-6">
+                <p>
+                  "What stands out to me is Luc his perseverance in the
+                  sometimes painful path of getting to a better user experience
+                  by embracing yet another failed test and really learn from it.
+                  The next day he will surprise you by coming up with a new
+                  solution inspired by something he found in some blogpost or
+                  customer review."
+                </p>
+                <p>- Mark van Kessel, Product Owner</p>
+              </div>
+            </div>
           </div>
-          <div className="col-12 col-md-6">
-            <p>
-              "Luc is an innovative and driven UX designer. I think his greatest
-              strength is in seeing projects through to completion. His work
-              with the internal product team on our owned-media app contributed
-              to a 3x increase revenue from earned media. The app went on to
-              exceed all expectations and is a great testament to his work."
-            </p>
-            <p>- Sharath Kowligi, User Acquisition</p>
+
+          <div>
+            <div className="row d-flex align-items-center">
+              <div className="col-12 col-md-6">
+                <img
+                  src="/aboutme-slidersharath.jpg"
+                  className="w-100"
+                  alt="Sharath"
+                />
+              </div>
+              <div className="col-12 col-md-6">
+                <p>
+                  "Luc is an innovative and driven UX designer. I think his
+                  greatest strength is in seeing projects through to completion.
+                  His work with the internal product team on our owned-media app
+                  contributed to a 3x increase revenue from earned media. The
+                  app went on to exceed all expectations and is a great
+                  testament to his work."
+                </p>
+                <p>- Sharath Kowligi, User Acquisition</p>
+              </div>
+            </div>
           </div>
-        </div>
+        </Slider>
       </div>
       <div className="container container-smaller pt-5 pb-5">
         <h2 className="text-uppercase font-weight-bold mb-5">My Experience</h2>

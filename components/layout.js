@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Head from "next/head";
 import "../styles/styles.scss";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default ({ children, title = "Luc Kersbergen" }) => (
   <div>
