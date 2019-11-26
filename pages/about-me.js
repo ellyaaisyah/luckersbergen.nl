@@ -4,7 +4,9 @@ import Slider from "react-slick";
 
 const AboutMe = () => {
   const settings = {
-    dots: true
+    dots: true,
+    arrows: true,
+    autoplay: true
   };
 
   return (
