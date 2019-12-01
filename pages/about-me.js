@@ -6,7 +6,9 @@ const AboutMe = () => {
   const settings = {
     dots: true,
     arrows: true,
-    autoplay: true
+    adaptiveHeight: true
+    // autoplay: true,
+    // autoplaySpeed: 5000
   };
 
   return (
@@ -46,15 +48,20 @@ const AboutMe = () => {
           visualise flows, designs and prototypes.
         </p>
       </div>
-      <div className="testimonials container-fluid">
+
+      <div className="container pb-5">
+        <hr />
+      </div>
+
+      <div className="testimonials container pb-4">
         <h2 className="text-uppercase font-weight-bold mb-5 text-center">
           What My Co-Workers Say About Me
         </h2>
 
         <Slider {...settings}>
           <div>
-            <div className="row d-flex align-items-center">
-              <div className="col-12 col-md-6">
+            <div className="row d-flex align-items-center mb-0 mb-md-3">
+              <div className="col-12 col-md-6 mb-3 mb-md-0">
                 <img
                   src="/aboutme-sliderellya.jpg"
                   className="w-100"
@@ -75,7 +82,7 @@ const AboutMe = () => {
 
           <div>
             <div className="row d-flex align-items-center">
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 mb-3 mb-md-0">
                 <img
                   src="/aboutme-slidermark.jpg"
                   className="w-100"
@@ -98,7 +105,7 @@ const AboutMe = () => {
 
           <div>
             <div className="row d-flex align-items-center">
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 mb-3 mb-md-0">
                 <img
                   src="/aboutme-slidersharath.jpg"
                   className="w-100"
@@ -120,6 +127,11 @@ const AboutMe = () => {
           </div>
         </Slider>
       </div>
+
+      <div className="container pt-5">
+        <hr />
+      </div>
+
       <div className="container container-smaller pt-5 pb-5">
         <h2 className="text-uppercase font-weight-bold mb-5">My Experience</h2>
 
