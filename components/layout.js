@@ -44,12 +44,9 @@ export default ({ children, title = "Luc Kersbergen" }) => (
             <Link href="/about-me">
               <a className="d-block d-md-inline px-md-4">About Me</a>
             </Link>
-            <a
-              href="mailto:luckersbergen@gmail.com"
-              className="d-block d-md-inline"
-            >
-              Contact
-            </a>
+            <Link href="/contact">
+              <a className="d-block d-md-inline font-weight-normal">Contact</a>
+            </Link>
           </div>
         </div>
       </nav>
@@ -68,16 +65,13 @@ export default ({ children, title = "Luc Kersbergen" }) => (
               About Me
             </a>
           </Link>
-          <a
-            href="mailto:luckersbergen@gmail.com"
-            className="d-block d-md-inline font-weight-normal"
-          >
-            Contact
-          </a>
+          <Link href="/contact">
+            <a className="d-block d-md-inline font-weight-normal">Contact</a>
+          </Link>
         </div>
 
         <div className="social">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/luckersbergen/">
             <img src="/footer-linkedin.png" width="30" />
           </a>
         </div>
